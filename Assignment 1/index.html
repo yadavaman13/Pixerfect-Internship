@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO Webapp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>TODO List</h1>
+        <form id="todo-form" autocomplete="off">
+            <input type="text" id="task-input" placeholder="Task title..." aria-label="Task title">
+            <div id="error-message" class="error-message hidden">Title is required</div>
+            <input type="text" id="desc-input" placeholder="Description (optional)" aria-label="Task description">
+            <label for="priority-input" class="priority-label">Priority:</label>
+            <select id="priority-input" aria-label="Priority">
+                <option value="low">Low</option>
+                <option value="mid">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button type="submit" id="add-btn">Add</button>
+        </form>
+        <div class="filters">
+            <button type="button" data-filter="all" class="filter-btn active">All</button>
+            <button type="button" data-filter="pending" class="filter-btn">Pending</button>
+            <button type="button" data-filter="completed" class="filter-btn">Completed</button>
+        </div>
+        <ul id="task-list"></ul>
+        <div id="completion-message" class="completion-message hidden">
+            🎉 Congratulations! You've completed all your tasks! 🎉
+        </div>
+        <button type="button" id="clear-completed" class="clear-btn">Clear All Tasks</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
