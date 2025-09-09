@@ -1,6 +1,6 @@
-# Minimalist To-Do Application
+# To-Do Webapp
 
-A clean, responsive, and feature-rich To-Do application built with vanilla HTML, CSS, and JavaScript. This project demonstrates modern web development practices while maintaining a minimalist black and white design aesthetic.
+A clean, responsive, and feature-rich To-Do application built with vanilla HTML, CSS, and JavaScript.
 
 ## 🚀 Features
 
@@ -121,54 +121,6 @@ if (!text) {
 .task-priority.high { background: #ef4444; }
 ```
 
-## 📱 Browser Compatibility
-
-- ✅ Chrome 60+
-- ✅ Firefox 60+
-- ✅ Safari 12+
-- ✅ Edge 79+
-
-## 🎯 Assignment Requirements Met
-
-### Mandatory Features (✅ Complete)
-- [x] Add new tasks
-- [x] Mark tasks as completed
-- [x] Delete tasks
-- [x] Clear distinction between completed/pending
-- [x] Input validation for empty tasks
-- [x] HTML/CSS/JavaScript separation
-- [x] Semantic HTML practices
-- [x] Clean, user-friendly UI
-- [x] Hover/active button states
-
-### Enhanced Features (✅ Complete)
-- [x] Task filtering (All/Pending/Completed)
-- [x] Local Storage persistence
-- [x] "Clear All Completed" functionality
-- [x] CSS transitions and animations
-- [x] **Bonus**: Priority system with descriptions
-- [x] **Bonus**: Color-coded interface
-- [x] **Bonus**: Mobile responsiveness
-
-## 🏆 Standout Features
-
-1. **Priority System**: Three-level priority with visual indicators
-2. **Task Descriptions**: Optional detailed task information
-3. **Color Psychology**: Strategic use of colors for better UX
-4. **Selective Strikethrough**: Only task text gets crossed out, not priority labels
-5. **Enhanced Filtering**: Comprehensive task management
-6. **Responsive Design**: Works perfectly on all devices
-
-## 🚀 Future Enhancements
-
-Potential features for future versions:
-- Due dates and reminders
-- Task categories/tags
-- Search functionality
-- Export/import tasks
-- Drag-and-drop reordering
-- Dark mode theme
-- Task sharing capabilities
 
 ## 📄 License
 
