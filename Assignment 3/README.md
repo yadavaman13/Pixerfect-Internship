@@ -167,11 +167,15 @@ GET /api/posts
 
 ### 1. API Welcome
 ![API Welcome](api-welcome.png)
+*API welcome endpoint showing server status and version information*
 
 ### 2. Get All Users
 ![Get All Users](get-all-users.png)
+*Successfully retrieving all registered users from the database*
 
 ### 3. User Registration
+![User Registration](user-registration.png)
+*Successfully registering a new user with JWT token generation*
 ## Assignment Requirements
 
 ### ✅ Core Features Completed
